@@ -1,0 +1,59 @@
+@import url(./cssFiles/usersPage.css);
+@import url(./cssFiles/user.css);
+@import url(./cssFiles/postsPage.css);
+@import url(./cssFiles/post.css);
+@import url(./cssFiles/photosPage.css);
+@import url(./cssFiles/photo.css);
+@import url(./cssFiles/albumsPage.css);
+@import url(./cssFiles/album.css);
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100%;
+    background: #eee;
+}
+.home-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+}
+.home-text h1{
+    font-size: 5rem;
+}
+.home-text p{
+    font-size: 2.5rem;
+    color: #444;
+}
+.home-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    border-radius: 6px;
+}
+section{
+    width: 25%;    
+    text-align: center;
+    padding: 15px 0;
+    background: #222;
+    border-left: 1px solid #fff;
+}
+section:hover{
+    background: none;
+}
+.home-content a{
+    color: #eee;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 16px;
+}
+.home-content a:hover{
+    color: #000;
+    transition: ease 0.6s;
+}

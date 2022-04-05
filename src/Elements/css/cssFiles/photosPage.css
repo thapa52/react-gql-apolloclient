@@ -1,0 +1,28 @@
+.photosPage-title{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.photosPage{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    justify-content: space-evenly;
+}
+.photosPage-content{
+    width: 300px;
+    height: 400px;
+    margin: 10px 10px;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2);
+}
+.photosPage-content a img{
+    height: 300px;
+    width: fit-content;
+}
+.photosPage-content p{
+    font-size: 1.3rem;
+    color: #222;
+    text-align: center;
+    margin-top: 16px;
+    padding: 10px;
+}

@@ -1,0 +1,32 @@
+.album{
+    padding: 20px;
+}
+.album-content{
+    margin: 30px auto;
+    padding: 50px 40px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;   
+}
+.album-content h1{
+    font-size: 5rem;
+    margin-bottom: 40px;
+}
+.album-content p{
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+.album-content a{
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 20px 16px;
+    border: 2px solid #333;
+    border-radius: 6px;
+    background: #333;
+    color: #ddd;
+}
+.album-content a:hover{
+    background: none;
+    color: #333;
+    transition: ease 0.5s;
+}

@@ -1,0 +1,81 @@
+.user{
+    min-height: 300px;
+    text-align: center;
+    padding: 20px;
+}
+.user h1{
+    font-size: 3rem;
+    padding:2rem 0;
+}
+.user h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* .user-button{
+    display: flex;
+    justify-content: space-around;
+} */
+.user-button button{
+    font-size: 1.3rem;
+    padding: 16px 13px;
+    background: #111;
+    color: #fff;
+    border: none;
+    border: 2px solid #111;
+    border-radius: 6px;
+}
+.user-button button:hover{
+    color: #111;
+    background: none;
+    border: 2px solid #111;
+    transition: ease 0.3s;
+}
+.info-btn{
+    position: absolute;
+    top: 18rem;
+    left: 20rem;
+}
+.address-btn{
+    position: absolute;
+    top: 18rem;
+    right: 20rem;
+}
+.info{
+    position: absolute;
+    left: 12rem;
+    bottom: 1.9rem
+}
+.address{
+    position: absolute;
+    right: 12rem;
+    bottom: 1.9rem
+}
+.btn-content{
+    padding: 16px 14px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.btn-content p{
+    font-size: 1.7rem;
+    color: #666;
+}
+.link a{
+    text-decoration: none;
+    font-size: .9rem;
+    padding: 20px 16px;
+    border: 1px solid #333;
+    border-radius: 6px;
+    background: #333;
+    color: #ddd;
+    margin: 0 20px;
+    
+}
+.link a:hover{
+    background: none;
+    color: #333;
+    transition: ease 0.5s;
+}

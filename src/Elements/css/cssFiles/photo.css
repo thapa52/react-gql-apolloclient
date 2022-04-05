@@ -1,0 +1,30 @@
+.photo h2{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.photo-content{
+    display: flex;
+    justify-content: center;
+}
+.photo-content img{
+    margin-right: 20px;
+}
+.photo a{
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 20px 16px;
+    border: 2px solid #333;
+    border-radius: 6px;
+    background: #333;
+    color: #ddd;
+    position: absolute;
+    top: 10rem;
+    right:10rem;
+}
+.photo a:hover{
+    background: none;
+    color: #333;
+    transition: ease 0.5s;
+}

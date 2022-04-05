@@ -1,0 +1,35 @@
+.usersPage{
+    background: #eee;
+    text-align: center;
+    min-height: 100vh;
+}
+.usersPage h1{
+    font-size: 3.5rem;
+    padding:2rem 0;
+}
+.users-content{
+    border: 1px solid black;
+    padding: 16px 20px;
+}
+.users-content:hover{
+    background: #ccc;
+}
+.users-content a{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    color: black;
+}
+.users-text{
+    border: 1px solid black;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    padding: 16px 20px;
+    background: black;
+    color: #ddd;
+}

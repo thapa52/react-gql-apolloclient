@@ -1,0 +1,30 @@
+.albums h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.albumsPage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.albums-content{
+    margin-bottom: 30px;
+    padding: 20px 16px;
+    width: 300px;
+    min-height: 250px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.albums-content:hover{
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+.albums-content a{
+    text-decoration: none;
+}
+.albums-content a p{
+    text-align:start;
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #222;
+}
